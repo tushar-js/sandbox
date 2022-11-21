@@ -21,7 +21,7 @@ function Login() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>ß
+        <form onSubmit={handleSubmit}>
             <label>
                 Email:
                 <input
