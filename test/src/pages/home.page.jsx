@@ -1,12 +1,14 @@
 import {Link} from 'react-router-dom'
+import './home.page.scss'
 
 function Home() {
     return (
-        <div>
+        <main className='home__main'>
             Home
             <Link to="login">Log in</Link>
             <Link to="signup">Sign Up</Link>
-        </div>
+            <Link to="tree">Tree</Link>
+        </main>
     )
 }
 
