@@ -1,7 +1,21 @@
 {
     "root": [
-        {"public": ["favicon.ico"]},
-        {"src": []},
+        {
+            "public": [
+                "favicon.ico"
+            ]
+        },
+        {
+            "src": [
+                {
+                    "components": [
+                        "button.js"
+                    ]
+                },
+                "App.js",
+                "App.css"
+            ]
+        },
         "readme.txt"
     ]
 }
