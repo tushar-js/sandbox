@@ -4,7 +4,7 @@ import NotFound from './pages/404-not-found.page';
 import Home from './pages/home.page';
 import Login from './pages/login.page';
 import Signup from './pages/signup.page';
-import Tree from './pages/tree.page';
+import Tree from './pages/tree/tree.page';
 
 
 function App() {
