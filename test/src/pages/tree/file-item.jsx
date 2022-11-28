@@ -1,6 +1,7 @@
 const FileItem = (props) => {
+
     return (
-        <p>{props.fileName}</p>
+        <p style={{paddingLeft: '20px'}}>{props.fileName}</p>
     )
 }
 

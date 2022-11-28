@@ -11,7 +11,7 @@ const FolderItem = ({ data }) => {
     let folderItems = Object.values(data)[0] || [];
 
     return (
-        <>
+        <div style={{paddingLeft: '20px'}}>
             <h4>{folderName}</h4>
             {folderItems.map(item => {
                 if (typeof (item) == "string") {
@@ -22,7 +22,7 @@ const FolderItem = ({ data }) => {
                 }
             })}
 
-        </>
+        </div>
     )
 }
 
