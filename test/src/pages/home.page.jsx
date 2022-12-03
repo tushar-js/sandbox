@@ -8,6 +8,7 @@ function Home() {
             <Link to="login">Log in</Link>
             <Link to="signup">Sign Up</Link>
             <Link to="tree">Tree</Link>
+            <Link to="counter">Counter</Link>
         </main>
     )
 }
