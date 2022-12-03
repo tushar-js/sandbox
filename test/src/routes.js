@@ -2,9 +2,9 @@ import { Routes, Route } from 'react-router-dom';
 
 import NotFound from './pages/404-not-found.page';
 import Counter from './pages/counter/counter.page';
-import Home from './pages/home.page';
-import Login from './pages/login.page';
-import Signup from './pages/signup.page';
+import Home from './pages/home/home.page';
+import Login from './pages/login/login.page';
+import Signup from './pages/signup/signup.page';
 import Tree from './pages/tree/tree.page';
 
 const routeConfig = (
